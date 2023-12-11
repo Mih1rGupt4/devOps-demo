@@ -14,7 +14,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                python script.py
+                python3 script.py
             }
         }
         stage('deploy') {
